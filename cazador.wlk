@@ -8,7 +8,6 @@ object cazador {
     method disminuirVigor(_unaCantidad) {
       energia = (energia - _unaCantidad).max(0)
     }
-
 }
 
 object escopeta {

@@ -9,6 +9,6 @@ object historia {
         canasta.disminuirCantManzanas(1)
         feroz.comer(caperucita)
         feroz.comer(canasta)
-        // Seguimos con el cazador ...
+        feroz.pelear(cazador)
     }
 }

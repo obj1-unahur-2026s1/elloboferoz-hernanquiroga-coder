@@ -18,4 +18,8 @@ object feroz {
     method correr() {
       self.disminuirPeso(1)
     }
+    method pelear(_otro) {
+      self.sufrirCrisis()
+      _otro.disminuirVigor(_decremento)
+    }
 }
